@@ -1,0 +1,187 @@
+
+body {
+    background-image: url(img/fondo.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    margin: 0; /* Asegúrate de que no haya márgenes por defecto */
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+
+
+.titulo h1{
+    margin-bottom: -10px;
+    align-items: center;
+}
+
+.titulo h2{
+    color:rgb(255, 255, 255);
+    align-items: center;
+}
+h1 {
+    color:rgb(255, 255, 255);
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+
+}
+
+.container h2{
+    margin-left: 0px;
+    background-color: rgb(122, 96, 129);
+    width: 200px; /* Ajusta el ancho del elemento a 200 píxeles */
+    height: 30px; /* Ajusta la altura del elemento a 150 píxeles */
+    text-align: center;
+    opacity: 70%;
+}
+
+.container2 h2{
+    margin-left: 0px;
+    background-color: rgb(122, 96, 129);
+    width: 200px; /* Ajusta el ancho del elemento a 200 píxeles */
+    height: 30px; /* Ajusta la altura del elemento a 150 píxeles */
+    text-align: center;
+    opacity: 70%;
+}
+
+h3 {
+    color:rgb(255, 255, 255);
+    padding-top: 10px;
+
+}
+
+
+.container{
+ display:flexbox;
+justify-content:space-around;
+min-height: 300px;
+align-items: center;
+align-content: center;
+margin-left: 50px;
+margin-right: 50px;
+float: left; /* Container a la izquierda */
+
+}
+
+.container2{
+   display:flexbox;
+   justify-content:space-around;
+   min-height: 300px;
+   align-items: center;
+   align-content: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   float: right; /* Container2 a la derecha */
+   
+   }
+
+.item {
+    background-color: rgb(100, 100, 100);
+    width: 200px; /* Ajusta el ancho del elemento a 200 píxeles */
+    height: 150px; /* Ajusta la altura del elemento a 150 píxeles */
+    text-align: center;
+    opacity: 80%;
+    
+}
+
+.centro {
+   display:flex;
+   justify-content:space-around;
+   align-items: center;
+   align-content: center;
+   margin-top: 72px;
+   margin-bottom:100px;
+   
+}
+
+.item2{
+    background-color: rgb(50, 50, 50);
+    height: 655px; /* Ajusta la altura del elemento a 150 píxeles */
+    width: 500px; /* Ajusta el ancho del elemento a 200 píxeles */
+    margin-right: 40px;
+    margin-left: 40px;
+    opacity: 70%;    
+}
+
+.item2 h3{
+    text-align: center;
+    background-color: rgb(122, 96, 129);
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+
+.articulo {
+    text-align: left;
+}
+
+.poca {
+    color: aliceblue;
+}
+
+.des {
+    text-align: center;
+    color: bisque;
+}
+
+
+
+.item2 p{
+  
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    text-align: center;
+}
+
+
+
+
+
+   .fondo2 {
+    background-image: url(img/fondo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    margin: 0; /* Asegúrate de que no haya márgenes por defecto */
+
+   }
+
+   .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Cambio importante: usar flexbox */
+    justify-content: space-around; /* Distribuir espacio entre elementos */
+    background-color: #333;
+}
+
+.navbar li {
+    /* float: left; Esta línea ya no es necesaria */
+}
+
+.navbar li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
