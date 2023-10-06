@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(img/fondo.jpg);
+    background-image: url(themes/juana/static/img/fondo.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ float: left; /* Container a la izquierda */
 
 
    .fondo2 {
-    background-image: url(img/fondo3.jpg);
+    background-image: url(themes/juana/static/img/fondo3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; /* Establece la altura al 100% del viewport */
