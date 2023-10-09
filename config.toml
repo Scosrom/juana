@@ -1,4 +1,4 @@
-baseURL = 'timely-swan-c7caf6.netlify.app'
+baseURL = 'https://terricoleo.netlify.app/'
 languageCode = "en-us"
 title = "gopherblog"
 theme = "juana"
