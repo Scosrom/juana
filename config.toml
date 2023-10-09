@@ -5,4 +5,4 @@ theme = "juana"
 
 
 [params]
-css = ["assets/pintaycolorea.css"]
+css = ["css/pintaycolorea.css"]
