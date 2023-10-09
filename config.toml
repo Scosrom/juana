@@ -2,3 +2,7 @@ baseURL = 'https://terricoleo.netlify.app/'
 languageCode = "es"
 title = "terricoleo"
 theme = "juana"
+
+
+[params]
+css = ["assets/pintaycolorea.css"
