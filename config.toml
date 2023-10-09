@@ -1,4 +1,4 @@
 baseURL = 'https://terricoleo.netlify.app/'
-languageCode = "en-us"
+languageCode = "es"
 title = "gopherblog"
 theme = "juana"
