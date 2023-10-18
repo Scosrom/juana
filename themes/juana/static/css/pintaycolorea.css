@@ -211,14 +211,6 @@ a.enlace {
         
 }
 
-   .fondo2 {
-    background-image: url(img/fondo3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Establece la altura al 100% del viewport */
-    margin: 0; /* Asegúrate de que no haya márgenes por defecto */
-
-   }
 
    .navbar {
     list-style-type: none;
