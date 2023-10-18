@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://terricoleo.netlify.app/img/fondo.jpg"); 
+    background-color: #111927;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,22 +12,46 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background-color: #111927;
 
     
+}
+
+
+.enlace a {
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.enlace li a {
+    
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.enlace a:hover {
+    background-color: #111;
 }
 
 
 .titulo h1{
     margin-bottom: -10px;
     align-items: center;
+    font-family: fantasy;
 }
 
 .titulo h2{
-    color:rgb(255, 255, 255);
+    color:#00ef3c;
     align-items: center;
+    font-family: fantasy;
 }
 h1 {
-    color:rgb(255, 255, 255);
+    color:rgb(64 188 102);
 }
 
 h2 {
@@ -37,20 +61,24 @@ h2 {
 
 .container h2{
     margin-left: 0px;
-    background-color: rgb(122, 96, 129);
+    background-color:rgb(137 137 137);
     width: 200px; /* Ajusta el ancho del elemento a 200 píxeles */
     height: 30px; /* Ajusta la altura del elemento a 150 píxeles */
     text-align: center;
     opacity: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .container2 h2{
     margin-left: 0px;
-    background-color: rgb(122, 96, 129);
+    background-color: rgb(137 137 137);
     width: 200px; /* Ajusta el ancho del elemento a 200 píxeles */
     height: 30px; /* Ajusta la altura del elemento a 150 píxeles */
     text-align: center;
     opacity: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -61,72 +89,93 @@ h3 {
 
 
 .container{
- display:flexbox;
-justify-content:space-around;
-min-height: 300px;
-align-items: center;
-align-content: center;
-margin-left: 50px;
-margin-right: 50px;
+display:grid;
+/*justify-content:space-around;*/
+/*align-items: center;*/
+/*align-content: center;*/
+/*margin-left: 50px;*/
+/*margin-right: 50px;*/
 float: left; /* Container a la izquierda */
+margin-top: 70px;
 
 }
 
 .container2{
-   display:flexbox;
-   justify-content:space-around;
-   min-height: 300px;
-   align-items: center;
-   align-content: center;
-   margin-left: 50px;
-   margin-right: 50px;
+    display:grid;
+    /*justify-content:space-around;*/
+    min-height: 300px;
+    /*align-items: center;*/
+    /*align-content: center;*/
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
    float: right; /* Container2 a la derecha */
+   margin-top: 70px;
    
    }
 
 .item {
-    background-color: rgb(100, 100, 100);
-    width: 200px; /* Ajusta el ancho del elemento a 200 píxeles */
+    background-color: #202837;
+    background-color: #;
+    width: 150px; /* Ajusta el ancho del elemento a 200 píxeles */
     height: 150px; /* Ajusta la altura del elemento a 150 píxeles */
     text-align: center;
-    opacity: 80%;
+    margin-top: 2px;
     
 }
 
+.item1 {
+    background-color: #202837;
+    width: 200px;
+    height: 380px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
 .centro {
-   display:flex;
-   justify-content:space-around;
-   align-items: center;
-   align-content: center;
-   margin-top: 72px;
-   margin-bottom:100px;
-   
+    margin-left: 150px;
+    margin-right: 202px;
+    
 }
 
 .item2{
-    background-color: rgb(50, 50, 50);
-    height: 655px; /* Ajusta la altura del elemento a 150 píxeles */
-    width: 500px; /* Ajusta el ancho del elemento a 200 píxeles */
-    margin-right: 40px;
-    margin-left: 40px;
-    opacity: 70%;    
-}
-
-.item2 h3{
-    text-align: center;
-    background-color: rgb(122, 96, 129);
-    margin-top: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+    
+    vertical-align: middle;
+    /* margin-left: 2px; */
+    display: flex;
+    margin-top: 72px;
+    flex-wrap: wrap;
+    margin-left: 2px;
+    /* margin-right: 202px; */
+    justify-content: space-evenly;
+    
+        
 }
 
 
 
 
+
+a.enlace {
+    color:#9fef00;
+    text-decoration: none;
+}
 
 .articulo {
     text-align: left;
+    background-color: #202837;
+    padding: 2%;
+    max-width: 33%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    color: #fff;
+    padding-bottom: 63px;
+}
+
+.articulo h3 {
+    color: #9fef00;
+    text-align: center;
 }
 
 .poca {
@@ -135,7 +184,8 @@ float: left; /* Container a la izquierda */
 
 .des {
     text-align: center;
-    color: bisque;
+    color:#9fef00;
+    text-decoration: none;
 }
 
 
@@ -144,15 +194,25 @@ float: left; /* Container a la izquierda */
   
     align-items: center; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */
-    text-align: center;
+    text-align: inherit;
 }
 
-
-
-
+.item3{
+    
+    vertical-align: middle;
+    /* margin-left: 2px; */
+    display: flex;
+    margin-top: 2px;
+    flex-wrap: wrap;
+    margin-left: 2px;
+    /* margin-right: 202px; */
+    justify-content: space-evenly;
+    
+        
+}
 
    .fondo2 {
-    background-image: url(/img/fondo3.jpg);
+    background-image: url(img/fondo3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; /* Establece la altura al 100% del viewport */
@@ -166,12 +226,10 @@ float: left; /* Container a la izquierda */
     padding: 0;
     display: flex; /* Cambio importante: usar flexbox */
     justify-content: space-around; /* Distribuir espacio entre elementos */
-    background-color: #333;
+    background-color: ##111927;
 }
 
-.navbar li {
-    /* float: left; Esta línea ya no es necesaria */
-}
+
 
 .navbar li a {
     display: flex;
