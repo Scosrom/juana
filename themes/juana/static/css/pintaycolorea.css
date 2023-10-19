@@ -13,8 +13,23 @@ body {
     flex-direction: column;
     text-align: center;
     background-color: #111927;
-
+    margin-bottom: -6em;
     
+    margin-top: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo h1{
+    color: #9fef00;
+}
+
+.titulo h2{
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+.espacio {
+    margin-top: 4em;
 }
 
 
@@ -38,26 +53,6 @@ body {
     background-color: #111;
 }
 
-
-.titulo h1{
-    margin-bottom: -10px;
-    align-items: center;
-    font-family: fantasy;
-}
-
-.titulo h2{
-    color:#00ef3c;
-    align-items: center;
-    font-family: fantasy;
-}
-h1 {
-    color:rgb(64 188 102);
-}
-
-h2 {
-    color:rgb(255, 255, 255);
-
-}
 
 .container h2{
     margin-left: 0px;
