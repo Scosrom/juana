@@ -1,6 +1,6 @@
-baseURL = 'https://terricoleo.netlify.app/'
+baseURL = 'https://cybertrunka.netlify.app/'
 languageCode = "es"
-title = "terricoleo"
+title = "cybertrunka"
 theme = "juana"
 
 
